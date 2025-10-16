@@ -1,0 +1,12 @@
+a=[]
+b=str(input('введите возраст:'))
+c=str(input('введите пол:'))
+d=str(input('введите имя:'))
+e=str(input('введите город:'))
+f=str(input('введите класс в котором вы учитесь:'))
+a.append(b)
+a.append(c)
+a.append(d)
+a.append(e)
+a.append(f)
+print(a)
