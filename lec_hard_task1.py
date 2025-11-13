@@ -1,8 +1,10 @@
 import numpy as np
+print("введите размерность массивов:")
 a=int(input())
 b=int(input())
 c=np.zeros((a, b))
 g=0
+print("введите значения 1 массива:")
 for i in range (2):
     d=0
     e=0
@@ -15,6 +17,7 @@ for i in range (2):
     if g==0:
         f=np.array(c)
         g+=1
+        print("введите значения 2 массива:")
 d=0
 e=0
 for i_1 in range(a*b):
