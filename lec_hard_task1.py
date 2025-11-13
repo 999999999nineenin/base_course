@@ -21,7 +21,7 @@ for i_1 in range(a*b):
     while a>d:
         while b>e:
             if c[d, e] > f[d, e]:
-                f[d, e]=c[d, e]
+                f[d, e] = c[d, e]
             e+=1
         d+=1
 print(f)
