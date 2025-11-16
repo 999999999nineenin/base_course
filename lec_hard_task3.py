@@ -2,7 +2,7 @@ import numpy as np
 print('введите размерность массива:')
 a=int(input())
 b=int(input())
-max=
+max=-999999999
 print('заполните массив:')
 c=np.zeros((a, b))
 e=0
@@ -15,11 +15,14 @@ while a>e:
         f+=1
     e+=1
 print(c)
-e=0
-for i in range(a):
-        for i in range(b):
-             if c[g,h]>max
-             max=c[g, h]
-    slice=c[e,::]
-    e+=1
-    print(slice)
+g=0
+h=0
+while b>h:
+    while a>g:
+        if c[g, h]>max:
+            max=c[g, h]
+        g+=1
+    print(max)
+    h+=1
+    g=0
+    max=0
