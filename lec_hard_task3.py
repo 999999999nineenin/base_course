@@ -2,7 +2,7 @@ import numpy as np
 print('введите размерность массива:')
 a=int(input())
 b=int(input())
-max=-999999999
+max=-9*10**300
 print('заполните массив:')
 c=np.zeros((a, b))
 e=0
