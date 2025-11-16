@@ -8,12 +8,12 @@ c=np.zeros((a, b))
 e=0
 f=0
 while a>e:
-    f=0
     while b>f:
         d=int(input())
         c[e, f]=d
         f+=1
     e+=1
+    f=0
 print(c)
 g=0
 h=0
