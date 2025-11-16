@@ -7,12 +7,16 @@ while a!=0 and c!=9:
     a=int(input())
     b.append(a)
     c+=1
+c+=1
 print(b)
 print('введите число:')
 d=int(input())
 print('введите позицию:')
 e=int(input())
-slice=b[:e]
-slice.append(d)
-slice_1=b[e:]
-print(slice+slice_1)
+if e>c:
+    print('размерность массива слишком мала')
+else:
+    slice=b[:e]
+    slice.append(d)
+    slice_1=b[e:]
+    print(slice+slice_1)
