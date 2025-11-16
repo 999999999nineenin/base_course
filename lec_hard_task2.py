@@ -13,10 +13,10 @@ print('введите число:')
 d=int(input())
 print('введите позицию:')
 e=int(input())
-if e>c:
+if e-1>c:
     print('размерность массива слишком мала')
 else:
-    slice=b[:e]
+    slice=b[:e-1]
     slice.append(d)
-    slice_1=b[e:]
+    slice_1=b[e-1:]
     print(slice+slice_1)
