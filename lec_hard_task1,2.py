@@ -24,10 +24,10 @@ e=0
 while a>d:
     while b>e:
         if c[d, e] > f[d, e]:
-            slice = c[d,e]
+            slice = c[d, e]
             h.append(int(slice))
         else:
-            slice = f[d,e]
+            slice = f[d, e]
             h.append(int(slice))
         e+=1
     e=0
