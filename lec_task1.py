@@ -1,6 +1,6 @@
 def func(*args):
-    x = args/ len(args)
+    x = a / len(args)
     return x
 
 
-print(func(int(input())))
+print(func())
