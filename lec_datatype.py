@@ -14,6 +14,7 @@ print(s[0])
 
 t = (1, 4, 9)
 print(t)
+print(type(t))
 print(t[0])
 #t[0] = 3
 

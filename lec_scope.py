@@ -5,7 +5,6 @@ def changer(a: int, b: list):
 
 x = 10
 y = [1, 2]
-
 changer(x, y)
 print(x)
 print(y)
