@@ -15,12 +15,12 @@ ball, = plt.plot([], [], 'o', color='r', label='Ball')
 ball_line, = plt.plot([], [], '-', color='r', label='Ball')
 
 frames = 720
-coords = np.zeros((frames, 2)) #массив 180 на 2
+coords = np.zeros((frames, 2)) #массив 720 на 2
 
 
 def animate(i):
     coords[i] = circle_move(R=2, angle_vel=1, time=i)
-    ball.set_data([coords[i][0]], [coords[i][1]])#текущая точка
+    ball.set_data([coords[i][0]], [coords[i][1]])#текущая точка x и y
     ball_line.set_data(coords[:i, 0], coords[:i, 1])#все точки от нулевой до текущей
     return ball, ball_line
 
