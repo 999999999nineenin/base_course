@@ -5,14 +5,12 @@ fig, ax = plt.subplots(subplot_kw={'projection' : '3d'})
 
 phi = np.linspace(0, 2*np.pi, 100)
 theta = np.linspace(0, 2*np.pi, 100)
-a = 3
-b = 4
-c = 5
+h = 10
 
-x = np.outer(np.cos(phi), np.sinh(theta)) * a
-y = np.outer(np.sin(phi), np.sinh(theta)) * b
-z = np.outer(np.ones(len(theta)), np.sinh(theta)) * c
+x = np.outer(phi, np.cos(theta))
+y = np.outer(phi, np.sin(theta))
+z = np.outer(np.ones(len(theta)), theta) * h
 
 ax.plot_surface(x, y, z)
 
-plt.savefig('fig_4.png')
+plt.savefig('fig_5.png')

@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-fig, ax = plt.subplots(subplot_kw={'projection': '3d'})
+fig, ax = plt.subplots(subplot_kw={'projection' : '3d'})
 
 phi = np.linspace(0, 2*np.pi, 100)
 theta = np.linspace(0, 2*np.pi, 100)
